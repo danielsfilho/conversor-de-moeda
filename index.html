@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <section class="container">
+        <div class="box-convert">
+            <h1 class="title">Conversor de Moeda</h1>
+
+            <input type="number" name="currency-converter" class="currencyConverter" placeholder="$ 00,00">
+            <button id="toConvert">Converter</button>
+
+            <div class="result">
+                R$ 00,00
+            </div>
+
+            <div class="selectConvert">
+                <label for="usd-brl"> USD > BRL
+                    <input type="radio" name="checkRadio" id="usd-brl" checked>
+                </label>
+
+                <label for="brl-usd">BRL > USD
+                    <input type="radio" name="checkRadio" id="brl-usd">
+                </label>
+   
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
